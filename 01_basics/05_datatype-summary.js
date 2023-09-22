@@ -37,4 +37,25 @@ const myFunction=function(){
     console.log("hello");
 }
 
-console.table([typeof(arr), typeof(myObj), typeof(myFunction)]);
+// console.table([typeof(arr), typeof(myObj), typeof(myFunction)]);
+
+
+  /*
+  ==========memory allocation
+  
+  stack(primitive)
+  where copy of variable is pass to the operation means actual cant change when we change copied variable
+
+  Heap(non primitive)
+  it stores single copy of variable means it change when we change copied variable
+
+  */
+
+  userOne={
+    name:"ganesh",
+    age:21
+  }
+  userTwo=userOne
+  userOne.name="Ganesh"
+
+  console.table([userOne, userTwo]);
