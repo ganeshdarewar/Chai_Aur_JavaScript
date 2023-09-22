@@ -14,8 +14,8 @@ let valueInNmber=Number(score)
 let isLogIn=""
 
 let booleanIsLogIn=Boolean(isLogIn)
-console.log(booleanIsLogIn);
-console.log(typeof booleanIsLogIn);
+// console.log(booleanIsLogIn);
+// console.log(typeof booleanIsLogIn);
 
 
 //  "ganesh", "0", "1" , "22sd"=> true
@@ -23,3 +23,10 @@ console.log(typeof booleanIsLogIn);
 
 
 
+// operation
+
+console.log("1"+2+2);
+console.log(1+2+"2");
+
+console.log(+true)
+console.log(true)
